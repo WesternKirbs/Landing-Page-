@@ -1,8 +1,8 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px;
 }
 
@@ -82,6 +82,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 100px 100px;
 }
 .sec2 h3{
     font-size: 36px;
@@ -108,14 +109,32 @@ a {
 }
 .sec3{
     flex: 1;
-}
-
-.sec3-content{
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.sec3-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 850px;
+}
+.quote-name{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 0px 50px 0px 0px;
+    
 }
 .sec4{
     flex: 1;
