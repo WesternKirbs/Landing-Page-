@@ -54,3 +54,30 @@ button{
 .block{
     width: 165px;
 }
+
+.sec3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec4-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
