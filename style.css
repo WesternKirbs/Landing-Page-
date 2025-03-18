@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0px;
 }
 
@@ -16,7 +16,6 @@ body {
     display: flex;
     gap: 32px;
     padding: 0px 200px 125px;
-    /*padding: 24px 100px; */
 }
 
 .header {
@@ -59,15 +58,15 @@ a {
     color: #E5E7EB;
 }
 
-button{
+.header-text button{
     margin: 12px 0px;
     border-radius: 8px;
     padding: 8px 40px;
     align-self: flex-start;
     color: white;
     font-weight: bold;
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
 }
 .img-block{
     flex: 1;
@@ -76,12 +75,24 @@ button{
     align-items: center;
     background-color: #6d747d;
 }
+
 .sec2{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.sec2 h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.block{
+    border: solid #3882F6;;
+    border-width: 4px;
+    border-radius: 20px;
+    height: 150px;
 }
 
 .subtext{
@@ -90,8 +101,10 @@ button{
     gap: 32px;
 }
 
-.block{
+.info{
     width: 165px;
+    text-align: center;
+    color: #4d5765;
 }
 .sec3{
     flex: 1;
