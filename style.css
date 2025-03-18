@@ -14,13 +14,15 @@ body {
 .sec1 {
     flex: 1;
     display: flex;
+    gap: 32px;
+    padding: 0px 200px 125px;
     /*padding: 24px 100px; */
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 150px 100px;
+    padding: 15px 200px 100px;
 }
 .logo{
     font-size: 24px;
@@ -40,14 +42,40 @@ a {
 }
 
 .header-text{
+    flex: 1;
     display: flex;
     flex-direction: column;
+    
+    flex-wrap: wrap;
+}
+.header-text h1{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.header-text p{
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button{
+    margin: 12px 0px;
+    border-radius: 8px;
+    padding: 8px 40px;
     align-self: flex-start;
+    color: white;
+    font-weight: bold;
+    background: royalblue;
+    border: 1px solid royalblue;
 }
-
+.img-block{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+}
 .sec2{
     flex: 1;
     display: flex;
