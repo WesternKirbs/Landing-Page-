@@ -183,7 +183,9 @@ a {
 
 .footer{
     display: flex;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
