@@ -2,17 +2,18 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-.sec1, .footer {
+.header, .sec1, .footer {
     color: white;
     background-color: #1F2937;
 }
 
 .sec1 {
+    flex: 1;
     display: flex;
-    flex-direction: column;
-    padding: 24px 100px;
+    /*padding: 24px 100px; */
 }
 
 .header {
@@ -25,10 +26,6 @@ ul {
     gap: 32px;
 }
 
-.header-content{
-    display: flex;
-    flex: 1;
-}
 .header-text{
     display: flex;
     flex-direction: column;
@@ -39,6 +36,7 @@ button{
 }
 
 .sec2{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +52,9 @@ button{
 .block{
     width: 165px;
 }
+.sec3{
+    flex: 1;
+}
 
 .sec3-content{
     display: flex;
@@ -61,6 +62,9 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.sec4{
+    flex: 1;
 }
 
 .sec4-content{
