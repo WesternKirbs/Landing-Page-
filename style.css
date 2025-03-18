@@ -138,11 +138,24 @@ a {
 }
 .sec4{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sec4-content, .sec4-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .sec4-content{
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
+    gap: 50px;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -150,6 +163,22 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+.sec4-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sec-subtext{
+    font-size: 24px;
+}
+
+.sec4-button{
+    font-weight: bold;
+    padding: 5px 25px;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 .footer{
